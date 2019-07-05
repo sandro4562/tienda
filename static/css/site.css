@@ -1,0 +1,209 @@
+body {
+	background-image: url(/static/img/backgrouond.jpg) !important;
+    background-repeat: repeat  !important;
+}
+
+table.dataTable tr.group td{font-weight:bold;background-color:#e0e0e0}
+
+@page { 
+    margin: 0 !important; 
+ 	margin-left: 20px !important; 
+	margin-right: 20px !important; 
+}
+
+.image-selected {
+	box-shadow: 6px 6px saddlebrown;
+    border: 4px saddlebrown solid;
+}
+
+.dataTables_filter {
+   width: 50%;
+   float: right;
+   text-align: right;
+}
+
+.image-selectable {
+    cursor: pointer;
+}
+
+.background-primary {
+	background-color: #D7CEC7 !important;
+}
+
+.background-primary-text-color {
+	color: #1F1300 !important;
+}
+
+.background-secondary {
+	background-color: #99805c !important;
+}
+
+.background-secondary-text-color {
+	color: white !important;
+}
+
+.background-tertiary {
+	background-color: #B48143 !important;
+}
+
+.background-quaternary {
+	background-color: #715E2A !important;
+}
+
+.background-quinary {
+	background-color: gainsboro !important;
+}
+
+.color-primary {
+	color: #1F1300 !important;
+}
+
+.color-secondary {
+	color: #504720!important;
+}
+
+.color-tertiary {
+	color: #B48143 !important;
+}
+
+.color-quaternary {
+	color: #715E2A !important;
+}
+
+.color-quinary {
+	color: #D1A981 !important;
+}
+
+ul.background-primary-text-color li > a {
+	color: #1F1300 !important;
+}
+
+ul.background-primary-text-color li > a:hover {
+	color: #C09F80 !important;
+}
+
+nav ul.background-secondary > li{
+	border-bottom: 1px solid #D7CEC7;
+}
+    
+
+nav.background-secondary ul li ul li > a {
+	color: #1F1300 !important;
+}
+
+nav.background-secondary ul li > a {
+	color: white !important;
+}
+
+nav.background-secondary ul li ul li > a:hover {
+	color: #C09F80 !important;
+}
+
+nav.background-secondary ul li > a:hover {
+	color: #C09F80 !important;
+}
+
+.card .card-header {
+	background-color: #D7CEC7;
+}
+
+.navbar-toggler {
+	border: 1px #1F1300 solid !important;
+}
+
+.btn-primary {
+	background-color: #99805c !important;
+}
+
+input.form-control:focus {
+	border :1px #8a5736 solid;
+	box-shadow: 1px 1px #888888;
+}
+
+select option {
+  background: #D7CEC7; 
+  color: #6b4329; 
+  box-shadow: inset 20px 20px #6b4329;
+} 
+
+select option:hover {
+  background: #6b4329; 
+  color: #6b4329; 
+  box-shadow: inset 20px 20px #6b4329;
+}
+
+button.btn.principal {
+	background-color: #99805c !important;
+}
+
+button.btn.btn-info {
+	background-color: #99805c !important;
+}
+
+.btn.btn-info {
+	background-color: #99805c !important;
+	width: 100px;
+	height: 35px;
+}
+
+.btn.btn-danger {
+	background-color: #dc3545 !important;
+	width: 100px;
+	height: 35px;
+}
+
+div.form-top{
+	background-color: #D7CEC7;
+}
+
+div.form-top div > h3 {
+	color: #6b4329 !important;
+	font-weight: bold;
+    font-size: xx-large;
+    padding-top: 3%;
+    padding-left: 50px;
+    padding-bottom: 3%;
+}
+
+div.form-top-right {
+	color: #6b4329;
+}
+
+div.form-top-center {
+	color: #6b4329 !important;
+	text-align: center;
+}
+
+tbody {
+	text-align: center;
+}
+
+select.dropdown-toggle {
+	height: 45px !important;
+}
+
+.dataTables_info{
+	text-align: center;
+	width: 100%;
+}
+
+.icon {
+    padding: 15px;
+    background: #99805c;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
